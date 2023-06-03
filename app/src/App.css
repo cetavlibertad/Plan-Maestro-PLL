@@ -1,0 +1,32 @@
+body {
+  overflow-x: hidden;
+  overrflow-y: hidden;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#map {
+  margin: 0 auto;
+}
+#map > image {
+  text-align: center;
+  margin: 0 auto;
+}
+circle:hover {
+  cursor: pointer;
+  fill: green;
+  width: 100px;
+}
+
+#logo {
+  position: absolute;
+  width: 200px;
+  top: 25px;
+  left: 0;
+  right: 0;
+}
