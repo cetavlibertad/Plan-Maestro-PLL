@@ -1,6 +1,5 @@
 body {
-  overflow-x: hidden;
-  overrflow-y: hidden;
+  overflow: hidden;
 }
 .App {
   width: 100vw;
@@ -30,12 +29,11 @@ circle:hover {
   left: 0;
   right: 0;
 }
-.mapSvg{
-  /* width={"100%"} height={"auto"} */
+.mapSvg {
   width: 1300px;
   height: 1200px;
 }
-.mapImg{
+.mapImg {
   width: 1200px;
-    height: 1000px;
+  height: 1000px;
 }

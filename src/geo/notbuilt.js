@@ -13,9 +13,9 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: null,
     lastDate: "mar-23",
     cords: {
-      x: 290,
-      y: 560,
-    },
+      x: 587,
+      y: 459
+  },
     renders: "Si",
   },
   {
@@ -33,9 +33,9 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: 2717391,
     lastDate: "mar-23",
     cords: {
-      x: 310,
-      y: 540,
-    },
+      x: 602,
+      y: 445
+  },
     renders: null,
   },
   {
@@ -51,11 +51,10 @@ const NOT_BUILT_JSON_ARRAY = [
     source: "Plan Maestro Inicial (año 2012)",
     costM: 224,
     estimatedCost: 2717391,
-    lastDate: "mar-23",
     cords: {
-      x: 170,
-      y: 320,
-    },
+      x: 570,
+      y: 320
+  },
     renders: null,
   },
   {
@@ -73,9 +72,9 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: 2150000,
     lastDate: "mar-23",
     cords: {
-      x: 740,
-      y: 530,
-    },
+      x: 910,
+      y: 460
+  },
     renders: null,
   },
   {
@@ -93,9 +92,9 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: 1086957,
     lastDate: "mar-23",
     cords: {
-      x: 520,
-      y: 580,
-    },
+      x: 769,
+      y: 445
+  },
     renders: null,
   },
   {
@@ -112,9 +111,9 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: null,
     lastDate: "mar-23",
     cords: {
-      x: 380,
-      y: 590,
-    },
+      x: 695,
+      y: 335
+  },
     renders: "No",
   },
   {
@@ -131,9 +130,9 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: null,
     lastDate: "mar-23",
     cords: {
-      x: 340,
-      y: 520,
-    },
+      x: 610,
+      y: 423
+  },
     renders: "No",
   },
   {
@@ -150,9 +149,9 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: 500000,
     lastDate: "mar-23",
     cords: {
-      x: 610,
-      y: 755,
-    },
+      x: 785,
+      y: 578
+  },
     renders: "No",
   },
 ];
