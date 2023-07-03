@@ -13,8 +13,8 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: null,
     lastDate: "mar-23",
     cords: {
-      x: 465,
-      y: 423
+      x: 495,
+      y: 433
   },
     renders: "Si",
   },
@@ -33,7 +33,7 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: 2717391,
     lastDate: "mar-23",
     cords: {
-      x: 485,
+      x: 510,
       y: 423
   },
     renders: null,
@@ -41,7 +41,7 @@ const NOT_BUILT_JSON_ARRAY = [
   {
     id: 1,
     area: 12148,
-    chartId: "T",
+    chartId: "N",
     name: "Infraestructura Etapa 3°",
     description:
       "Conjunto de medios técnicos, servicios e instalaciones que componen la vía pública del Parque, necesarios para tránsito de personas y vehículos en forma segura y confortable de un punto a otro. Incluye: red vial, ciclo vía, sistemas de alcantarillado pluvial, sistema sanitario, sistemas de telecomunicaciones, red eléctrica. Estas obras serán complemento de la infraestructura existente de la 1° Etapa. ",
@@ -52,8 +52,8 @@ const NOT_BUILT_JSON_ARRAY = [
     costM: 224,
     estimatedCost: 2717391,
     cords: {
-      x: 460,
-      y: 200
+      x: 480,
+      y: 230
   },
     renders: null,
   },
@@ -92,14 +92,14 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: 1086957,
     lastDate: "mar-23",
     cords: {
-      x: 661,
-      y: 480
+      x: 666,
+      y: 484
   },
     renders: null,
   },
   {
     id: 6,
-    chartId: "V",
+    chartId: "O",
     name: "Infraestructura 4° Etapa ",
     description:
       "Conjunto de medios técnicos, servicios e instalaciones que componen la vía pública del Parque, necesarios para tránsito de personas y vehículos en forma segura y confortable de un punto a otro. Incluye: red vial, ciclo vía, sistemas de alcantarillado pluvial, sistema sanitario, sistemas de telecomunicaciones, red eléctrica. Estas obras serán complemento de la infraestructura de la 2° y 3° Etapa. ",
@@ -111,8 +111,8 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: null,
     lastDate: "mar-23",
     cords: {
-      x: 642,
-      y: 316
+      x: 658,
+      y: 336
   },
     renders: "No",
   },
@@ -130,8 +130,8 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: null,
     lastDate: "mar-23",
     cords: {
-      x: 518,
-      y: 378
+      x: 534,
+      y: 390
   },
     renders: "No",
   },
@@ -149,8 +149,8 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: 500000,
     lastDate: "mar-23",
     cords: {
-      x: 670,
-      y: 658
+      x: 675,
+      y: 648
   },
     renders: "No",
   },

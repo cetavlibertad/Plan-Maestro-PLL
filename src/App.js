@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import map_pll from "./assets/MAPAPLL-01.svg";
+import map_pll from "./assets/MAPAPLL.png";
 import logo from "./assets/logo.png";
 
 import "./App.css";
