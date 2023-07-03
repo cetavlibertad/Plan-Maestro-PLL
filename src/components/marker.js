@@ -27,18 +27,20 @@ const Marker = (props) => {
       onMouseOut={(evt) => evt.target.setAttribute('r', '10')}
       cx={cords.x}
       cy={cords.y}
-      r={10}
+      r={9}
       fill={color}
       onClick={() => onClick(props)}
     />
-    <text
-      x={cords.x}
-      y={cords.y}
-      textAnchor="middle"
-      alignmentBaseline="middle"
-    >
-      {chartId}
-    </text>
+<text
+  x={cords.x-3} 
+  y={cords.y+1}
+  textAnchor="start"
+  alignmentBaseline="middle"
+  fill="white"
+  style={{ fontSize: "9px" }}
+>
+  {chartId}
+</text>
   </g> 
     </Tooltip>
   );
