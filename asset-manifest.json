@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Plan-Maestro-PLL/static/css/main.7df3891f.css",
-    "main.js": "/Plan-Maestro-PLL/static/js/main.5eae58cc.js",
-    "static/media/MAPAPLL-01.svg": "/Plan-Maestro-PLL/static/media/MAPAPLL-01.397647a83acd9afd6653766a8044738d.svg",
+    "main.css": "/Plan-Maestro-PLL/static/css/main.16cfc4db.css",
+    "main.js": "/Plan-Maestro-PLL/static/js/main.afca7ee7.js",
+    "static/media/MAPAPLL.png": "/Plan-Maestro-PLL/static/media/MAPAPLL.235e68028499acc75c5e.png",
     "static/media/logo.png": "/Plan-Maestro-PLL/static/media/logo.5833ce1aba150aadc309.png",
     "index.html": "/Plan-Maestro-PLL/index.html",
-    "main.7df3891f.css.map": "/Plan-Maestro-PLL/static/css/main.7df3891f.css.map",
-    "main.5eae58cc.js.map": "/Plan-Maestro-PLL/static/js/main.5eae58cc.js.map"
+    "main.16cfc4db.css.map": "/Plan-Maestro-PLL/static/css/main.16cfc4db.css.map",
+    "main.afca7ee7.js.map": "/Plan-Maestro-PLL/static/js/main.afca7ee7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7df3891f.css",
-    "static/js/main.5eae58cc.js"
+    "static/css/main.16cfc4db.css",
+    "static/js/main.afca7ee7.js"
   ]
 }
