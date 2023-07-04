@@ -32,10 +32,8 @@ const Marker = (props) => {
       onClick={() => onClick(props)}
     />
 <text
-  x={cords.x-3} 
-  y={cords.y+1}
-  textAnchor="start"
-  alignmentBaseline="middle"
+  x={cords.x- 2.7} 
+  y={cords.y+ 3.5}
   fill="white"
   style={{ fontSize: "9px" }}
 >
