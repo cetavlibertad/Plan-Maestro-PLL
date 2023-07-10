@@ -31,15 +31,15 @@ const DialogModal = ({ closeHandler, open, item }) => {
   };
 
   return (
-    <Dialog open={open} sx={{ padding: 20 }}>
+    <Dialog open={open} sx={{ padding: 20 }} className="responsive-dialog">
       <img
         src={logo}
         style={{ margin: "0 auto", marginTop: 20 }}
         alt={"Dialog Logo"}
-        width={200}
+        width={100}
       />
       <DialogTitle>
-        <Typography textAlign={"center"} fontSize={32}>
+        <Typography textAlign={"center"} fontSize={22}>
           <b>Ficha Descriptiva #{item ? item.id : null}</b>
         </Typography>
       </DialogTitle>
@@ -49,10 +49,10 @@ const DialogModal = ({ closeHandler, open, item }) => {
             {Object.keys(NAME_INFO_MAP).map((key) =>
               item && item[key] ? (
                 <TableRow>
-                  <TableCell sx={{ fontSize: 16 }} align="left">
+                  <TableCell sx={{ fontSize: 18 }} align="left">
                     <b>{NAME_INFO_MAP[key]}</b>
                   </TableCell>
-                  <TableCell sx={{ fontSize: 16 }} align="right">
+                  <TableCell sx={{ fontSize: 18 }} align="right">
                     {getSpecialFormat(key, item[key])}
                   </TableCell>
                 </TableRow>

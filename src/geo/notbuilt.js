@@ -13,9 +13,9 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: null,
     lastDate: "mar-23",
     cords: {
-      x: 290,
-      y: 560,
-    },
+      x: 299.4 ,
+      y: 384
+  },
     renders: "Si",
   },
   {
@@ -33,15 +33,15 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: 2717391,
     lastDate: "mar-23",
     cords: {
-      x: 310,
-      y: 540,
-    },
+      x: 317.3 ,
+      y: 382
+  },
     renders: null,
   },
   {
     id: 1,
     area: 12148,
-    chartId: "T",
+    chartId: "N",
     name: "Infraestructura Etapa 3°",
     description:
       "Conjunto de medios técnicos, servicios e instalaciones que componen la vía pública del Parque, necesarios para tránsito de personas y vehículos en forma segura y confortable de un punto a otro. Incluye: red vial, ciclo vía, sistemas de alcantarillado pluvial, sistema sanitario, sistemas de telecomunicaciones, red eléctrica. Estas obras serán complemento de la infraestructura existente de la 1° Etapa. ",
@@ -51,11 +51,10 @@ const NOT_BUILT_JSON_ARRAY = [
     source: "Plan Maestro Inicial (año 2012)",
     costM: 224,
     estimatedCost: 2717391,
-    lastDate: "mar-23",
     cords: {
-      x: 170,
-      y: 320,
-    },
+      x: 320,
+      y: 189
+  },
     renders: null,
   },
   {
@@ -73,9 +72,9 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: 2150000,
     lastDate: "mar-23",
     cords: {
-      x: 740,
-      y: 530,
-    },
+      x: 717,
+      y: 392
+  },
     renders: null,
   },
   {
@@ -93,14 +92,14 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: 1086957,
     lastDate: "mar-23",
     cords: {
-      x: 520,
-      y: 580,
-    },
+      x: 513,
+      y: 370
+  },
     renders: null,
   },
   {
     id: 6,
-    chartId: "V",
+    chartId: "O",
     name: "Infraestructura 4° Etapa ",
     description:
       "Conjunto de medios técnicos, servicios e instalaciones que componen la vía pública del Parque, necesarios para tránsito de personas y vehículos en forma segura y confortable de un punto a otro. Incluye: red vial, ciclo vía, sistemas de alcantarillado pluvial, sistema sanitario, sistemas de telecomunicaciones, red eléctrica. Estas obras serán complemento de la infraestructura de la 2° y 3° Etapa. ",
@@ -112,9 +111,9 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: null,
     lastDate: "mar-23",
     cords: {
-      x: 380,
-      y: 590,
-    },
+      x: 443,
+      y: 217
+  },
     renders: "No",
   },
   {
@@ -131,9 +130,9 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: null,
     lastDate: "mar-23",
     cords: {
-      x: 340,
-      y: 520,
-    },
+      x: 331,
+      y: 340
+  },
     renders: "No",
   },
   {
@@ -150,9 +149,9 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: 500000,
     lastDate: "mar-23",
     cords: {
-      x: 610,
-      y: 755,
-    },
+      x: 582.2,
+      y: 553
+  },
     renders: "No",
   },
 ];

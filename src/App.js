@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import map_pll from "https://github.com/cetavlibertad/imagenespll/blob/main/MAPA%20UBICACIONES%20PLL.jpg";
+import map_pll from "./assets/MAPAPLL.png";
 import logo from "./assets/logo.png";
 
 import "./App.css";
@@ -38,10 +38,10 @@ function App() {
         sx={{ margin: 0 }}
         fontSize={32}
       >
-        <b>Mapa Interactivo</b>
+        <b>MAPA PLAN MAESTRO PARQUE LA LIBERTAD</b>
       </Typography>
-      <svg id="map" width={"1200px"} height={"100vh"}>
-        <image href={map_pll} width={"1200px"} height={"1200px"} ai></image>
+      <svg id="map" class="mapSvg" >
+        <image href={map_pll} class="mapImg"  ai></image>
         {NOT_BUILT_JSON_ARRAY.map((item, index) => {
           return (
             <Marker
