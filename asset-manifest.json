@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Plan-Maestro-PLL/static/css/main.0318b655.css",
-    "main.js": "/Plan-Maestro-PLL/static/js/main.4c34b454.js",
+    "main.css": "/Plan-Maestro-PLL/static/css/main.137c8d87.css",
+    "main.js": "/Plan-Maestro-PLL/static/js/main.a8c637fc.js",
     "static/media/MAPAPLL.png": "/Plan-Maestro-PLL/static/media/MAPAPLL.2ab7bdc9ca491fb1f99e.png",
     "static/media/logo.png": "/Plan-Maestro-PLL/static/media/logo.5833ce1aba150aadc309.png",
     "index.html": "/Plan-Maestro-PLL/index.html",
-    "main.0318b655.css.map": "/Plan-Maestro-PLL/static/css/main.0318b655.css.map",
-    "main.4c34b454.js.map": "/Plan-Maestro-PLL/static/js/main.4c34b454.js.map"
+    "main.137c8d87.css.map": "/Plan-Maestro-PLL/static/css/main.137c8d87.css.map",
+    "main.a8c637fc.js.map": "/Plan-Maestro-PLL/static/js/main.a8c637fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.0318b655.css",
-    "static/js/main.4c34b454.js"
+    "static/css/main.137c8d87.css",
+    "static/js/main.a8c637fc.js"
   ]
 }
