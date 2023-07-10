@@ -13,8 +13,8 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: null,
     lastDate: "mar-23",
     cords: {
-      x: 344,
-      y: 317
+      x: 299.4 ,
+      y: 384
   },
     renders: "Si",
   },
@@ -33,8 +33,8 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: 2717391,
     lastDate: "mar-23",
     cords: {
-      x: 359,
-      y: 315
+      x: 317.3 ,
+      y: 382
   },
     renders: null,
   },
@@ -52,8 +52,8 @@ const NOT_BUILT_JSON_ARRAY = [
     costM: 224,
     estimatedCost: 2717391,
     cords: {
-      x: 362,
-      y: 150
+      x: 320,
+      y: 189
   },
     renders: null,
   },
@@ -72,8 +72,8 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: 2150000,
     lastDate: "mar-23",
     cords: {
-      x: 700,
-      y: 322
+      x: 717,
+      y: 392
   },
     renders: null,
   },
@@ -92,8 +92,8 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: 1086957,
     lastDate: "mar-23",
     cords: {
-      x: 526,
-      y: 304
+      x: 513,
+      y: 370
   },
     renders: null,
   },
@@ -111,8 +111,8 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: null,
     lastDate: "mar-23",
     cords: {
-      x: 466,
-      y: 176
+      x: 443,
+      y: 217
   },
     renders: "No",
   },
@@ -130,8 +130,8 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: null,
     lastDate: "mar-23",
     cords: {
-      x: 371,
-      y: 280
+      x: 331,
+      y: 340
   },
     renders: "No",
   },
@@ -149,8 +149,8 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: 500000,
     lastDate: "mar-23",
     cords: {
-      x: 585,
-      y: 460
+      x: 582.2,
+      y: 553
   },
     renders: "No",
   },

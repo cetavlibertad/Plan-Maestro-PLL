@@ -4,10 +4,7 @@ body {
 .App {
   width: 100vw;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  overflow: scroll;
-  flex-direction: column;
+  overflow: scroll; 
 }
 
 #map {
@@ -24,7 +21,7 @@ circle:hover {
 }
 
 #logo {
-  position: absolute;
+  position: relative;
   width: 200px;
   top: 25px;
   left: 0;
@@ -33,8 +30,40 @@ circle:hover {
 .mapSvg {
   width: 1300px;
   height: 1200px;
-}
+  background: cadetblue;
+  border: solid black 3px;
+  }
 .mapImg {
   width: 1200px;
-  height: 1000px;
+  height: 1200px;
+}
+.responsive-dialog {
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+
+  .responsive-dialog {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-dialog {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .responsive-dialog {
+    font-size: 14px;
+    padding: 5px;
+  }
+}
+.custom-text-class {
+  font-size:15.2px;;
+  font-weight: bold;
+  user-select: none;
 }
