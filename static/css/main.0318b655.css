@@ -1,0 +1,2 @@
+body{overflow:hidden}.App{display:flex;flex-direction:column;height:100vh;justify-content:center;overflow:scroll;width:100vw}#map,#map>image{margin:0 auto}#map>image{text-align:center}circle:hover{fill:green;cursor:pointer;width:100px}#logo{left:0;position:absolute;right:0;top:25px;width:200px}.mapSvg{height:1200px;width:1300px}.mapImg{height:1000px;width:1200px}
+/*# sourceMappingURL=main.0318b655.css.map*/
