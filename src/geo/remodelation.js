@@ -13,8 +13,8 @@ const REMODELATION_JSON_ARRAY = [
     estimatedCost: null,
     lastDate: "mar-23",
     cords: {
-      x: 565,
-      y: 445
+      x: 417,
+      y: 308
   },
     renders: "No",
   }
