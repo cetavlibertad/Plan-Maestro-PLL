@@ -1,12 +1,9 @@
 body{
   overflow: hidden;
-  margin: 1rem 0.7rem;
-}
-.App {  
-  overflow: auto;
-  height: 100vh;
-  margin-top: 1rem;
-  margin-bottom: 1.6rem;
+}.App {
+  overflow: scroll;
+  height: 97vh;
+  padding: 11px;
 }
 
 .App::-webkit-scrollbar {
