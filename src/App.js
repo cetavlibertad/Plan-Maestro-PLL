@@ -8,6 +8,7 @@ import Marker from "./components/marker";
 
 import NOT_BUILT_JSON_ARRAY from "./geo/notbuilt";
 import REMODELATION_JSON_ARRAY from "./geo/remodelation";
+import built from "./geo/built";
 
 import { Typography } from "@mui/material";
 import DialogModal from "./components/dialog";
@@ -59,6 +60,16 @@ function App() {
               onClick={setSelectedItem}
               key={"marker-" + item.id}
               {...item}
+            />
+          );
+        })}
+        {built.map((item, index) => {
+          return (
+            <Marker
+              color={"yellow"}
+              key={"marker-" + item.id}
+              {...item}
+              className="locked"
             />
           );
         })}
