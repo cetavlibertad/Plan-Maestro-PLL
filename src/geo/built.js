@@ -1,12 +1,11 @@
 const REMODELATION_JSON_ARRAY_copy = [
   {
     id: 15,
-    chartId: 1,
-    name: "Oficinas Administrativas",
-    
+    chartId: 4,
+    name: "1era Etapa de Infraestructura",    
     cords: {
-      x: 505,
-      y: 372.5
+      x: 332,
+      y: 298
   }
   }
 ];

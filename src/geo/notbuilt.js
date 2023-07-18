@@ -13,15 +13,15 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: null,
     lastDate: "mar-23",
     cords: {
-      x: 299.4 ,
-      y: 384
+      x: 301 ,
+      y: 381
   },
     renders: "Si",
   },
   {
     id: 1,
     area: 12148,
-    chartId: "B",
+    chartId: "C",
     name: "Infraestructura Etapa 2°",
     description:
       "Conjunto de medios técnicos, servicios e instalaciones que componen la vía pública del Parque, necesarios para tránsito de personas y vehículos en forma segura y confortable de un punto a otro. Incluye: red vial, ciclo vía, sistemas de alcantarillado pluvial, sistema sanitario, sistemas de telecomunicaciones, red eléctrica. Estas obras serán complemento de la infraestructura existente de la 1° Etapa. ",
@@ -33,8 +33,8 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: 2717391,
     lastDate: "mar-23",
     cords: {
-      x: 317.3 ,
-      y: 382
+      x: 603 ,
+      y: 378
   },
     renders: null,
   },
@@ -52,8 +52,8 @@ const NOT_BUILT_JSON_ARRAY = [
     costM: 224,
     estimatedCost: 2717391,
     cords: {
-      x: 320,
-      y: 189
+      x: 321,
+      y: 181
   },
     renders: null,
   },
@@ -72,8 +72,8 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: 2150000,
     lastDate: "mar-23",
     cords: {
-      x: 717,
-      y: 392
+      x: 716,
+      y: 387
   },
     renders: null,
   },
@@ -93,7 +93,7 @@ const NOT_BUILT_JSON_ARRAY = [
     lastDate: "mar-23",
     cords: {
       x: 513,
-      y: 370
+      y: 365
   },
     renders: null,
   },
@@ -112,7 +112,7 @@ const NOT_BUILT_JSON_ARRAY = [
     lastDate: "mar-23",
     cords: {
       x: 443,
-      y: 217
+      y: 210
   },
     renders: "No",
   },
@@ -130,8 +130,8 @@ const NOT_BUILT_JSON_ARRAY = [
     estimatedCost: null,
     lastDate: "mar-23",
     cords: {
-      x: 331,
-      y: 340
+      x: 333,
+      y: 334
   },
     renders: "No",
   },
@@ -150,7 +150,7 @@ const NOT_BUILT_JSON_ARRAY = [
     lastDate: "mar-23",
     cords: {
       x: 582.2,
-      y: 553
+      y: 552
   },
     renders: "No",
   },

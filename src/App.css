@@ -1,24 +1,32 @@
-body {
+body{
   overflow: hidden;
+  margin: 1rem 0.7rem;
 }
-.App {
+.App {  
+  overflow: auto;
   height: 100vh;
-  overflow: scroll;
+  margin-top: 1rem;
+  margin-bottom: 1.6rem;
+}
 
-  width: 100vw;
+.App::-webkit-scrollbar {
+  width: 15px;
 }
-#map,
-#map > image {
-  margin: 0 auto;
+
+.App::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
 }
-#map > image {
-  text-align: center;
+
+.App::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
 }
-circle:hover {
-  fill: green;
-  cursor: pointer;
-  width: 100px;
+
+.App::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
 }
+
+
 #logo {
   left: 0;
   position: absolute;
@@ -26,41 +34,64 @@ circle:hover {
   top: 25px;
   width: 200px;
 }
-.mapSvg {
-  height: 1200px;
-  width: 1300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+#map,
+#map > image {
+  margin: 0 auto;
 }
+
+#map > image {
+  text-align: center;
+}
+
+.circle:hover {
+  cursor: pointer;
+  fill: green;
+  width: 100px;
+}
+
+.custom-text-class {
+  user-select: none;
+  font-size: 15.2px;
+  font-weight: 700;
+  user-select: none;
+}
+
 .mapImg {
   height: 1200px;
   width: 1200px;
 }
+
+.mapSvg {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 1200px;
+  width: 1300px;
+}
+
 .responsive-dialog {
   margin: 0 auto;
   max-width: 800px;
   width: 90%;
 }
-@media (max-width: 768px) {
-  .responsive-dialog {
-    width: 100%;
-  }
-}
-@media (max-width: 480px) {
-  .responsive-dialog {
-    font-size: 16px;
-  }
-}
+
 @media (max-width: 320px) {
   .responsive-dialog {
     font-size: 14px;
     padding: 5px;
   }
 }
-.custom-text-class {
-  font-size: 15.2px;
-  font-weight: 700;
-  -webkit-user-select: none;
-  user-select: none;
+
+@media (max-width: 480px) {
+  .responsive-dialog {
+    font-size: 16px;
+  }
 }
+
+@media (max-width: 768px) {
+  .responsive-dialog {
+    width: 100%;
+  }
+}
+

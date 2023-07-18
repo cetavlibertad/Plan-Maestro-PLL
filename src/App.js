@@ -63,16 +63,22 @@ function App() {
             />
           );
         })}
-        {built.map((item, index) => {
-          return (
-            <Marker
-              color={"yellow"}
-              key={"marker-" + item.id}
-              {...item}
-              className="locked"
-            />
-          );
-        })}
+   {built.map((item, index) => {
+  const handleClick = () => {
+    if (!item.className || item.className !== "locked") {
+      setSelectedItem();
+    }
+  };
+
+  return (
+    <Marker
+      color={"yellow"}
+      key={"marker-" + item.id}
+      {...item}
+      onClick={handleClick}
+    />
+  );
+})}
       </svg>
     </div>
   );
