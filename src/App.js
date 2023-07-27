@@ -46,7 +46,7 @@ function App() {
         {NOT_BUILT_JSON_ARRAY.map((item, index) => {
           return (
             <Marker
-              color={"red"}
+              color={"#d67b15"}
               onClick={setSelectedItem}
               key={"marker-" + item.id}
               {...item}
@@ -56,7 +56,7 @@ function App() {
         {REMODELATION_JSON_ARRAY.map((item, index) => {
           return (
             <Marker
-              color={"blue"}
+              color={"#4cc29c"}
               onClick={setSelectedItem}
               key={"marker-" + item.id}
               {...item}
@@ -72,7 +72,7 @@ function App() {
 
   return (
     <Marker
-      color={"yellow"}
+      color={"#e4a224"}
       key={"marker-" + item.id}
       {...item}
       onClick={handleClick}

@@ -21,27 +21,30 @@ const Marker = (props) => {
   } = props;
   return (
     <Tooltip title={name} placement="top">
-      <g >
-      <circle
-      onMouseOver={(evt) => evt.target.setAttribute('r', '15')}
-      onMouseOut={(evt) => evt.target.setAttribute('r', '12')}
-      cx={cords.x}
-      cy={cords.y}
-      r={12}
-      fill={color}
-      stroke="white"
-      strokeWidth={2} 
-      onClick={() => onClick(props)}
-    />
-<text
-  x={cords.x - 4.9} 
-  y={cords.y+ 3.5}
-  fill="black"
-  className="custom-text-class"
->
-  {chartId}
-</text>
-  </g> 
+ <g>
+  <circle
+    onMouseOver={(evt) => evt.target.setAttribute('r', '15')}
+    onMouseOut={(evt) => evt.target.setAttribute('r', '12')}
+    cx={cords.x}
+    cy={cords.y}
+    r={13}
+    fill={color}
+    stroke="white"
+    strokeWidth={2} 
+    onClick={() => onClick(props)}
+  />
+  <text
+    x={cords.x}
+    y={cords.y}
+    fill="black"
+    className="custom-text-class"
+    textAnchor="middle" 
+    dominantBaseline="middle" 
+  >
+    {chartId}
+  </text>
+</g>
+
     </Tooltip>
   );
 };
