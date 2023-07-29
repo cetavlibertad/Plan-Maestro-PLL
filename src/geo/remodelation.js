@@ -1,6 +1,6 @@
 const REMODELATION_JSON_ARRAY = [{
     id: 15,
-    chartId: 1,
+    chartId: "1",
     name: "Oficinas Administrativas",
     description: "Nuevo edificio administrativo que albergará al personal administrativo, financiero y otros departamentos. ",
     antiproject: false,
@@ -14,7 +14,7 @@ const REMODELATION_JSON_ARRAY = [{
       x: 386,
       y: 368
     },
-    renders: "No",
+    renders: null,
   },
   {
     id: 2,
@@ -65,6 +65,12 @@ const REMODELATION_JSON_ARRAY = [{
     id: 17,
     chartId: "17",
     name: "Centro de Gestión y Educación Ambiental (CEGEA)",
+    description: "Obra de mejoramiento acústico en edificio CEGEA ya que tiene interrupciones de sonidos por actividades propias del Centro Ferial",
+    antiproject: "No",
+    design: "No",
+    source:"Obras adicionales",
+    designer: null,
+    lastDate: "mar-23",
     cords: {
       x: 824,
       y: 414,

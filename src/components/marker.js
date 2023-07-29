@@ -23,8 +23,18 @@ const Marker = (props) => {
     <Tooltip title={name} placement="top">
  <g>
   <circle
-    onMouseOver={(evt) => evt.target.setAttribute('r', '15')}
-    onMouseOut={(evt) => evt.target.setAttribute('r', '12')}
+    onMouseOver={(evt) => {
+      evt.target.setAttribute('r', '15');
+        if (description !== undefined) {          
+          evt.target.setAttribute('fill', 'green'); 
+        }else{
+          evt.target.setAttribute('fill', 'red'); 
+        }
+      }}
+    onMouseOut={(evt) => {
+        evt.target.setAttribute('r', '12');
+        evt.target.setAttribute('fill', color); 
+    }}
     cx={cords.x}
     cy={cords.y}
     r={13}

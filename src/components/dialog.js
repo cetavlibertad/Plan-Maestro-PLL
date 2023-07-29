@@ -30,7 +30,8 @@ const DialogModal = ({ closeHandler, open, item }) => {
     }
   };
 
-  return (
+    return (
+    
     <Dialog open={open} sx={{ padding: 20 }} className="responsive-dialog">
       <img
         src={logo}

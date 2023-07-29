@@ -44,41 +44,50 @@ function App() {
       <svg id="map" class="mapSvg" >
         <image href={map_pll} class="mapImg"  ai></image>
         {NOT_BUILT_JSON_ARRAY.map((item, index) => {
+      const handleClick = (i) => { 
+        if(i.description === undefined){
+            return
+          } setSelectedItem(i)   
+        };
           return (
             <Marker
               color={"#d67b15"}
-              onClick={setSelectedItem}
+              onClick={handleClick}
               key={"marker-" + item.id}
-              {...item}
+              {...item}              
             />
           );
         })}
         {REMODELATION_JSON_ARRAY.map((item, index) => {
+      const handleClick = (i) => { 
+        if(i.description === undefined){
+            return
+          } setSelectedItem(i)   
+        };
           return (
             <Marker
               color={"#4cc29c"}
-              onClick={setSelectedItem}
+              onClick={handleClick}
               key={"marker-" + item.id}
               {...item}
             />
           );
         })}
-   {built.map((item, index) => {
-  const handleClick = () => {
-    if (!item.className || item.className !== "locked") {
-      setSelectedItem();
-    }
-  };
-
-  return (
-    <Marker
-      color={"#e4a224"}
-      key={"marker-" + item.id}
-      {...item}
-      onClick={handleClick}
-    />
-  );
-})}
+        {built.map((item, index) => {
+      const handleClick = (i) => { 
+        if(i.description === undefined){
+            return
+          } setSelectedItem(i)   
+        };
+          return (
+            <Marker
+              color={"#e4a224"}
+              key={"marker-" + item.id}
+              {...item}
+              onClick={handleClick}
+            />
+          );
+        })}
       </svg>
     </div>
   );
