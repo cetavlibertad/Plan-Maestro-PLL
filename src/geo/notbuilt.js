@@ -53,6 +53,15 @@ const NOT_BUILT_JSON_ARRAY = [{
     },
     renders: "Si",
   },
+   {
+    id: "B",
+    chartId: "B",
+    name: "Acceso al Centro de Acopio",
+    cords: {
+      x: 319,
+      y: 377,
+    },
+  },
   {
     id: "O",
     chartId: "O",
@@ -179,6 +188,46 @@ const NOT_BUILT_JSON_ARRAY = [{
     cords: {
       x: 513,
       y: 365,
+    },
+    renders: null,
+  },
+  {
+    id: "J",
+    chartId: "J",
+    name: "Edificio 'Espacio CoCreativo'",
+     cords: {
+      x:650 ,
+      y:255 ,
+    },
+    renders: null,
+  },
+  {
+    id: "L",
+    chartId: "L",
+    name: "Centro de Innocacion y Economia Creativa",
+     cords: {
+      x:563 ,
+      y:243 ,
+    },
+    renders: null,
+  },
+  {
+    id: "F",
+    chartId: "F",
+    name: "Oficinas de Juventudes- Aulas",
+     cords: {
+      x:558 ,
+      y:427 ,
+    },
+    renders: null,
+  },
+  {
+    id: "G",
+    chartId: "G",
+    name: "Plazoleta Multiusos",
+     cords: {
+      x:537 ,
+      y:439 ,
     },
     renders: null,
   },

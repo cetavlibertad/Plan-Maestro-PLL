@@ -101,6 +101,13 @@ const REMODELATION_JSON_ARRAY_copy = [
     id: 15,
     chartId: "15",
     name: "Centro Infantil y Juvenil (CI)",
+    description: "Edificación destinada a la atención de primera infancia de niños, en donde se busca el desarrollo físico, social y cognitivo, pues durante este período los niños adquieren las habilidades para pensar, hablar, aprender, razonar e interactuar con otros.",
+    antiproject: "No",
+    design: "No",
+    source:"Obras adicionales (año 2022)",
+    costM: 1200 ,
+    designer: null,
+    lastDate: "mar-23",
      cords: {
       x:675 ,
       y:250 ,

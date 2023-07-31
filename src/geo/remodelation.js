@@ -47,6 +47,12 @@ const REMODELATION_JSON_ARRAY = [{
     id: 9,
     chartId: "9",
     name: "Salón Multiusos La Libertad",
+    description: "Remodelación de área de baños de danza pequeña y antiguo taller para facilitar el uso de los espacios a los usuarios del Gimnasio",
+    antiproject: "No",
+    design: "No",
+    source:"Plan Maestro Inicial (año 2012)",
+    designer: null,
+    lastDate: "mar-23",
     cords: {
       x: 561,
       y: 476,
@@ -79,7 +85,7 @@ const REMODELATION_JSON_ARRAY = [{
   {
     id: 19,
     chartId: "19",
-    name: "Centro Forial",
+    name: "Centro Ferial",
     cords: {
       x: 831,
       y: 348,

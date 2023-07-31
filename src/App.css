@@ -11,16 +11,20 @@ body{
 }
 
 .App::-webkit-scrollbar-track {
-  background-color: #f0f0f0;
+  background-color: #4cc29c;
+  width: 10px;
+  border-radius: 5px;
+  margin-block: 4.3em;
 }
 
 .App::-webkit-scrollbar-thumb {
-  background-color: #888;
+  background-color: #d67b15;
   border-radius: 5px;
+  width: 7px;
 }
 
 .App::-webkit-scrollbar-thumb:hover {
-  background-color: #555;
+  background-color: #e4a224;
 }
 
 
