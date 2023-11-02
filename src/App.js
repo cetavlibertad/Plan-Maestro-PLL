@@ -1,21 +1,26 @@
 import { useEffect, useState } from "react";
 
-import map_pll from "./assets/MAPAPLL.png";
+// import map_pll from "./assets/MAPAPLL.png";
+import map_pll2 from "./assets/mapa 4_B-1.png";
 import logo from "./assets/logo.png";
 
 import "./App.css";
 import Marker from "./components/marker";
 
 import NOT_BUILT_JSON_ARRAY from "./geo/notbuilt";
-import REMODELATION_JSON_ARRAY from "./geo/remodelation";
 import built from "./geo/built";
 
 import { Typography } from "@mui/material";
 import DialogModal from "./components/dialog";
+import DropdownPrint from "./layout/maplayouts";
+
 
 function App() {
+  
   const [selectedItem, setSelectedItem] = useState(null);
   const [open, setOpen] = useState(false);
+    
+  
 
   useEffect(() => {
     if (selectedItem) {
@@ -24,7 +29,17 @@ function App() {
   }, [selectedItem]);
 
   return (
+    
     <div className="App">
+      <div className="box">
+      <Typography textAlign={"center"}  component={"h1"}  sx={{ margin: 0 }}  fontSize={32}>
+        <b>MAPA PLAN MAESTRO PARQUE LA LIBERTAD</b>
+      </Typography>
+    <img src={logo} id="logo" alt="Page Logo" />
+</div>  
+    <div className="lock">
+      <DropdownPrint />
+    </div>
       <DialogModal
         closeHandler={() => {
           setOpen(false);
@@ -32,17 +47,8 @@ function App() {
         item={selectedItem}
         open={open}
       />
-      <img src={logo} id="logo" alt="Page Logo" />
-      <Typography
-        textAlign={"center"}
-        component={"h1"}
-        sx={{ margin: 0 }}
-        fontSize={32}
-      >
-        <b>MAPA PLAN MAESTRO PARQUE LA LIBERTAD</b>
-      </Typography>
       <svg id="map" class="mapSvg" >
-        <image href={map_pll} class="mapImg"  ai></image>
+        <image href={map_pll2} class="mapImg img23" ai x={-135} y={-175} ></image>
         {NOT_BUILT_JSON_ARRAY.map((item, index) => {
       const handleClick = (i) => { 
         if(i.description === undefined){
@@ -51,25 +57,11 @@ function App() {
         };
           return (
             <Marker
+              buildstate="not_built"
               color={"#d67b15"}
               onClick={handleClick}
               key={"marker-" + item.id}
               {...item}              
-            />
-          );
-        })}
-        {REMODELATION_JSON_ARRAY.map((item, index) => {
-      const handleClick = (i) => { 
-        if(i.description === undefined){
-            return
-          } setSelectedItem(i)   
-        };
-          return (
-            <Marker
-              color={"#4cc29c"}
-              onClick={handleClick}
-              key={"marker-" + item.id}
-              {...item}
             />
           );
         })}
@@ -81,6 +73,7 @@ function App() {
         };
           return (
             <Marker
+              buildstate="built"
               color={"#e4a224"}
               key={"marker-" + item.id}
               {...item}
@@ -90,6 +83,7 @@ function App() {
         })}
       </svg>
     </div>
+
   );
 }
 

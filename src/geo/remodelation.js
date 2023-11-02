@@ -1,5 +1,5 @@
 const REMODELATION_JSON_ARRAY = [{
-    id: 15,
+    id: 1,
     chartId: "1",
     name: "Oficinas Administrativas",
     description: "Nuevo edificio administrativo que albergará al personal administrativo, financiero y otros departamentos. ",

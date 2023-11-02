@@ -11,8 +11,8 @@ const NOT_BUILT_JSON_ARRAY = [{
     estimatedCost: 2717391,
     lastDate: "mar-23",
     cords: {
-      x: 603,
-      y: 378,
+      x: 620,
+      y: 348,
     },
     renders: null,
   },
@@ -30,8 +30,8 @@ const NOT_BUILT_JSON_ARRAY = [{
     estimatedCost: 2150000,
     lastDate: "mar-23",
     cords: {
-      x: 716,
-      y: 387,
+      x: 748,
+      y: 370,
     },
     renders: null,
   },
@@ -49,7 +49,7 @@ const NOT_BUILT_JSON_ARRAY = [{
     lastDate: "mar-23",
     cords: {
       x: 301,
-      y: 381,
+      y: 351,
     },
     renders: "Si",
   },
@@ -58,8 +58,8 @@ const NOT_BUILT_JSON_ARRAY = [{
     chartId: "B",
     name: "Acceso al Centro de Acopio",
     cords: {
-      x: 319,
-      y: 377,
+      x: 316,
+      y: 346,
     },
   },
   {
@@ -75,8 +75,8 @@ const NOT_BUILT_JSON_ARRAY = [{
     estimatedCost: null,
     lastDate: "mar-23",
     cords: {
-      x: 443,
-      y: 210,
+      x: 455,
+      y: 180,
     },
     renders: null,
   },
@@ -94,8 +94,8 @@ const NOT_BUILT_JSON_ARRAY = [{
     estimatedCost: null,
     lastDate: "mar-23",
     cords: {
-      x: 611,
-      y: 212,
+      x: 641,
+      y: 174,
     },
     renders: null,
   },

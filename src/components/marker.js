@@ -18,34 +18,30 @@ const Marker = (props) => {
     cords,
     onClick,
     color,
+    buildstate,
   } = props;
   return (
     <Tooltip title={name} placement="top">
- <g>
-  <circle
-    onMouseOver={(evt) => {
-      evt.target.setAttribute('r', '15');
-        if (description !== undefined) {          
-          evt.target.setAttribute('fill', 'green'); 
-        }else{
-          evt.target.setAttribute('fill', 'red'); 
-        }
-      }}
-    onMouseOut={(evt) => {
-        evt.target.setAttribute('r', '12');
-        evt.target.setAttribute('fill', color); 
-    }}
-    cx={cords.x}
-    cy={cords.y}
-    r={13}
-    fill={color}
-    stroke="white"
-    strokeWidth={2} 
-    onClick={() => onClick(props)}
-  />
+ <g className={buildstate}>
+ <polygon
+  onMouseOver={(evt) => {
+    evt.target.setAttribute('fill', 'green');
+    if (description === undefined) {
+      evt.target.setAttribute('fill', 'red');
+    }
+  }}
+  onMouseOut={(evt) => {
+    evt.target.setAttribute('fill', color);
+  }}
+  points={`${cords.x },${cords.y +12} ${cords.x + 14},${cords.y - 22} ${cords.x - 14},${cords.y - 22}`}
+  fill={color}
+  stroke="black"
+  strokeWidth={1}
+  onClick={() => onClick(props)}
+/>
   <text
     x={cords.x}
-    y={cords.y}
+    y={cords.y -8}
     fill="black"
     className="custom-text-class"
     textAnchor="middle" 
