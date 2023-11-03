@@ -12,7 +12,7 @@ const NOT_BUILT_JSON_ARRAY = [{
     lastDate: "mar-23",
     cords: {
       x: 620,
-      y: 348,
+      y: 352,
     },
     renders: null,
   },
@@ -112,7 +112,7 @@ const NOT_BUILT_JSON_ARRAY = [{
     estimatedCost: 500000,
     lastDate: "mar-23",
     cords: {
-      x: 582.2,
+      x: 602,
       y: 552,
     },
     renders: null,
@@ -131,7 +131,7 @@ const NOT_BUILT_JSON_ARRAY = [{
     estimatedCost: 2717391,
     cords: {
       x: 321,
-      y: 181,
+      y: 135,
     },
     renders: null,
   },
@@ -149,7 +149,7 @@ const NOT_BUILT_JSON_ARRAY = [{
     estimatedCost: 350000,
     lastDate: "mar-23",
     cords: {
-      x: 1006,
+      x: 1066,
       y: 400,
     },
     renders: "SÍ (planos en físico)",
@@ -167,8 +167,8 @@ const NOT_BUILT_JSON_ARRAY = [{
     estimatedCost: null,
     lastDate: "mar-23",
     cords: {
-      x: 333,
-      y: 334,
+      x: 329,
+      y: 298,
     },
     renders: null,
   },
@@ -186,8 +186,8 @@ const NOT_BUILT_JSON_ARRAY = [{
     estimatedCost: 1086957,
     lastDate: "mar-23",
     cords: {
-      x: 513,
-      y: 365,
+      x: 530,
+      y: 345,
     },
     renders: null,
   },
@@ -196,8 +196,8 @@ const NOT_BUILT_JSON_ARRAY = [{
     chartId: "J",
     name: "Edificio 'Espacio CoCreativo'",
      cords: {
-      x:650 ,
-      y:255 ,
+      x:676 ,
+      y:215 ,
     },
     renders: null,
   },
@@ -206,8 +206,8 @@ const NOT_BUILT_JSON_ARRAY = [{
     chartId: "L",
     name: "Centro de Innocacion y Economia Creativa",
      cords: {
-      x:563 ,
-      y:243 ,
+      x:570 ,
+      y:195 ,
     },
     renders: null,
   },
@@ -216,8 +216,8 @@ const NOT_BUILT_JSON_ARRAY = [{
     chartId: "F",
     name: "Oficinas de Juventudes- Aulas",
      cords: {
-      x:558 ,
-      y:427 ,
+      x:575 ,
+      y:410 ,
     },
     renders: null,
   },
@@ -226,8 +226,8 @@ const NOT_BUILT_JSON_ARRAY = [{
     chartId: "G",
     name: "Plazoleta Multiusos",
      cords: {
-      x:537 ,
-      y:439 ,
+      x:555 ,
+      y:422 ,
     },
     renders: null,
   },

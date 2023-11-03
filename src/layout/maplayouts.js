@@ -16,6 +16,11 @@ function DropdownPrint() {
       build: false,
       notbuild: false,
     };
+    if (option === 'both') {
+      updatedOptionsState["build"] = true;
+      updatedOptionsState["notbuild"] = true;
+    }
+
     updatedOptionsState[option] = true;
     setOptionsState(updatedOptionsState);
     setSelectedOption(option);
@@ -26,7 +31,6 @@ function DropdownPrint() {
   }, [optionsState]);
 
   const handleStateChange = (newState) => {
-    console.log('Nuevo estado:', newState);
     const buildElements = document.getElementsByClassName('built');
     const notbuildElements = document.getElementsByClassName('not_built');
     const buildbt = document.getElementById('buildID');
@@ -67,7 +71,7 @@ function DropdownPrint() {
           onChange={handleRadioChange}
           style={{ display: 'none' }}
         />
-        Built 
+        Built & Remodelation
       </label>
       <label style={generalStyle} id='NTbuildID'>
         <input
@@ -79,6 +83,17 @@ function DropdownPrint() {
           style={{ display: 'none' }}
         />
         To Build
+      </label>
+      <label style={generalStyle} id='NTbuildID'>
+        <input
+          type="radio"
+          name="option"
+          value="both"
+          checked={selectedOption === 'both'}
+          onChange={handleRadioChange}
+          style={{ display: 'none' }}
+        />
+        Show All
       </label>
     </div>
   );

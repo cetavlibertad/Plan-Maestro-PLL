@@ -16,12 +16,9 @@ import DropdownPrint from "./layout/maplayouts";
 
 
 function App() {
-  
   const [selectedItem, setSelectedItem] = useState(null);
   const [open, setOpen] = useState(false);
-    
-  
-
+ 
   useEffect(() => {
     if (selectedItem) {
       setOpen(true);
@@ -32,10 +29,11 @@ function App() {
     
     <div className="App">
       <div className="box">
+      <img src={logo} id="logo" alt="Page Logo" />
       <Typography textAlign={"center"}  component={"h1"}  sx={{ margin: 0 }}  fontSize={32}>
-        <b>MAPA PLAN MAESTRO PARQUE LA LIBERTAD</b>
+        <b>MAPA PLAN MAESTRO LA LIBERTAD</b>
       </Typography>
-    <img src={logo} id="logo" alt="Page Logo" />
+    
 </div>  
     <div className="lock">
       <DropdownPrint />
