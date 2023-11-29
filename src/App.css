@@ -122,8 +122,10 @@ pointer-events: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 75px 50px 100px;
 }
 .box{
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }

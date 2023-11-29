@@ -45,8 +45,8 @@ function App() {
         item={selectedItem}
         open={open}
       />
-      <svg id="map" class="mapSvg" >
-        <image href={map_pll2} class="mapImg img23" ai x={-135} y={-175} ></image>
+      <svg id="map" className="mapSvg" >
+        <image href={map_pll2} className="mapImg img23" ai x={-135} y={-175} ></image>
         {NOT_BUILT_JSON_ARRAY.map((item, index) => {
       const handleClick = (i) => { 
         if(i.description === undefined){

@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-
-
-
 function DropdownPrint() {
   const [selectedOption, setSelectedOption] = useState();
   const [optionsState, setOptionsState] = useState({
@@ -16,12 +13,14 @@ function DropdownPrint() {
       build: false,
       notbuild: false,
     };
+
     if (option === 'both') {
       updatedOptionsState["build"] = true;
       updatedOptionsState["notbuild"] = true;
+    } else {
+      updatedOptionsState[option] = true;
     }
 
-    updatedOptionsState[option] = true;
     setOptionsState(updatedOptionsState);
     setSelectedOption(option);
   };
@@ -33,36 +32,32 @@ function DropdownPrint() {
   const handleStateChange = (newState) => {
     const buildElements = document.getElementsByClassName('built');
     const notbuildElements = document.getElementsByClassName('not_built');
-    const buildbt = document.getElementById('buildID');
-    const notbuildbt = document.getElementById('NTbuildID')
     
-
     for (const element of buildElements) {
       element.style.display = newState.build ? 'block' : 'none';
-      buildbt.style.background = newState.build ? 'rgb(185 225 169)' : 'rgb(166 200 152)';
     }
+
     for (const element of notbuildElements) {
       element.style.display = newState.notbuild ? 'block' : 'none';
-      notbuildbt.style.background = newState.build ? 'rgb(166 200 152)' : 'rgb(185 225 169)';
     }
   };
+
   const generalStyle = {
-    background: '#4cc29c',
+    background: 'rgb(166, 200, 152)',
     width: '250px',
-    color:'black',
-    fontSize:'20px',
+    color: 'black',
+    fontSize: '20px',
     height: '20px',
     textAlign: 'center',
     padding: '10px',
-    margin:' 10px 30px',
-    border: 'solid black 1px'
+    margin: '10px 30px',
+    border: 'solid black 1px',
+    cursor: 'pointer', // Added cursor pointer for better UX
   };
 
-
-
   return (
-    <div className='maptab' >
-      <label style={generalStyle} id='buildID'>
+    <div className='maptab'>
+      <label style={{ ...generalStyle, background: optionsState.build ? 'rgb(185, 225, 169)' : 'rgb(166, 200, 152)' }}>
         <input
           type="radio"
           name="option"
@@ -73,7 +68,8 @@ function DropdownPrint() {
         />
         Built & Remodelation
       </label>
-      <label style={generalStyle} id='NTbuildID'>
+
+      <label style={{ ...generalStyle, background: optionsState.notbuild ? 'rgb(185, 225, 169)' : 'rgb(166, 200, 152)' }}>
         <input
           type="radio"
           name="option"
@@ -84,7 +80,8 @@ function DropdownPrint() {
         />
         To Build
       </label>
-      <label style={generalStyle} id='NTbuildID'>
+
+      <label style={{ ...generalStyle, background: optionsState.build && optionsState.notbuild ? 'rgb(185, 225, 169)' : 'rgb(166, 200, 152)' }}>
         <input
           type="radio"
           name="option"
