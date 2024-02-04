@@ -1,6 +1,12 @@
-body{
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
   overflow: hidden;
-}.App {
+}
+
+.App {
   overflow: scroll;
   height: 97vh;
   padding: 11px;
@@ -24,7 +30,7 @@ body{
 }
 
 .App::-webkit-scrollbar-thumb:hover {
-  background-color:#4cc29c ;
+  background-color: #4cc29c;
 }
 
 
@@ -37,11 +43,11 @@ body{
 }
 
 #map,
-#map > image {
+#map>image {
   margin: 0 auto;
 }
 
-#map > image {
+#map>image {
   text-align: center;
 }
 
@@ -53,9 +59,9 @@ body{
 
 .custom-text-class {
   user-select: none;
-  font-size: 12.2px;
+  font-size: 11.2px;
   font-weight: 700;
-pointer-events: none;
+  pointer-events: none;
 }
 
 .mapImg {
@@ -67,8 +73,24 @@ pointer-events: none;
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 1200px;
+  height: 850px;
   width: 1300px;
+}
+
+.mapList {
+  background-color: rgb(251, 251, 251);
+  border: solid #def 1px;
+  border-radius: 10px;
+  position: relative;
+  left: 2%;
+  bottom: 8%;
+  width: auto;
+  max-height: calc(100% - 50%);
+  display: flex;
+  flex-flow: column wrap;
+  padding:5px;
+  font-size: 12px;
+  flex-basis: 0;
 }
 
 .responsive-dialog {
@@ -96,7 +118,7 @@ pointer-events: none;
   }
 }
 
-.mappoints{
+.mappoints {
   position: absolute;
   right: 28px;
   top: 10em;
@@ -104,27 +126,29 @@ pointer-events: none;
   flex-direction: column;
 }
 
-.custom-marker{
+.custom-marker {
   border: black 2px solid;
 }
 
-.img23{
+.img23 {
   opacity: 80%;
   width: 120%;
 
 }
-.img2{
+
+.img2 {
   opacity: 70%;
 }
 
-.maptab{
+.maptab {
   margin-top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 75px 50px 100px;
 }
-.box{
+
+.box {
   display: flex;
   justify-content: center;
   flex-direction: column;

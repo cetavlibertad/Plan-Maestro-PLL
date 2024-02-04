@@ -45,7 +45,8 @@
     ]
   },
   "devDependencies": {
-    "@types/leaflet": "^1.9.3"
+    "@types/leaflet": "^1.9.3",
+    "@babel/plugin-proposal-private-property-in-object": "^7.10.0"
   },
   "homepage": "./"
 }
