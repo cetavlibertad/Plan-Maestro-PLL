@@ -11,7 +11,7 @@ import built from "./geo/built";
 
 import { Typography } from "@mui/material";
 import DialogModal from "./components/dialog";
-import DropdownPrint from "./layout/maplayouts";
+import {DropdownPrint , MapList} from "./layout/maplayouts";
 
 function App() {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -36,7 +36,9 @@ function App() {
           <b>MAPA PLAN MAESTRO</b>
         </Typography>
       </div>
-      
+      <div className="lock">
+        <DropdownPrint />        
+      </div>
       <DialogModal
         closeHandler={() => {
           setOpen(false);
@@ -87,9 +89,8 @@ function App() {
           );
         })}
       </svg>
-      <div className="lock">
-        <DropdownPrint />
-      </div>
+
+      <MapList/>
     </div>
   );
 }

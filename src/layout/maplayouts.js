@@ -118,21 +118,16 @@ function DropdownPrint() {
           Show All
         </label>
       </div>
-      
-        <MapList optionsState={optionsState} />
-
     </div>
   );
 }
-const MapList = ({ optionsState }) => {
+
+const MapList = () => {
   const builtList = built.map((item) => ({ id: item.id, name: item.name }));
   const notBuildList = NOT_BUILT_JSON_ARRAY.map((item) => ({
     id: item.id,
     name: item.name,
   }));
-
-  console.log("Built List:", builtList);
-  console.log("Not Built List:", notBuildList);
 
   const renderMarkerList = (markers, className) => (
     <ul >
@@ -147,10 +142,10 @@ const MapList = ({ optionsState }) => {
 
   return (
     <div className="mapList">
-      {optionsState.build && renderMarkerList(builtList, "built")}
-      {optionsState.notbuild && renderMarkerList(notBuildList, "not_built")}
+      {renderMarkerList(builtList, "built")}
+      {renderMarkerList(notBuildList, "not_built")}
     </div>
   );
 };
 
-export default DropdownPrint;
+export { MapList ,DropdownPrint};
